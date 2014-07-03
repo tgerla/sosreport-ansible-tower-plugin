@@ -1,3 +1,5 @@
+# Initial credit goes to Github's lowwalker.
+
 # Tower SOS plugin
 #
 # gettext required for ubuntu
