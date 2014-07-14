@@ -1,10 +1,12 @@
 SOSreport API changed drastically from v2.2 to v2.3 and later.
 
-tower-sos2.py is for v2.2 (EL6), and tower-sos3.py is for v2.3 and greater,
-shipped with Ubuntu 12.04 and 14.04.
+tower-sos2.py is for v2.2 (shipped with EL6), and tower-sos3.py is for
+v2.3 and greater, shipped with Ubuntu 12.04, 14.04, and EL7.
 
 On EL6, the plugin goes in /usr/lib/python2.6/site-packages/sos/plugins/
 
-On Ubuntu, the plugin goes in /usr/share/sosreport/sos/plugins/
+On EL7, /usr/lib/python2.7/site-packages/sos/plugins/
+
+On Ubuntu, /usr/share/sosreport/sos/plugins/
 
 To test, run "sosreport" and follow the directions.
